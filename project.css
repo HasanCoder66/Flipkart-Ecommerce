@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(35, 35, 168);
+    /* display: flex; */
+    align-items: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 0px 35px;
+    display: flex;
+    justify-content: flex-start;
+
+    /* align-self: center; */
+}
+input {
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    width: 30vw;
+    height: 4vh;
+}
+.button {
+    padding: 0px 0px 0px 20px;
+}
+button {
+    cursor: pointer;
+    background-color: rgb(35, 35, 168);
+    border: 2px solid white;
+    width: 6vw;
+    height: 4vh;
+    color: white;
+    border-radius: 3px;
+    /* padding-left: 100px; */
+}
+button:hover {
+    background-color: white ; 
+    color:  rgb(35, 35, 168);
+    font-weight: bold;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 30px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white ;
+}
+ul li a:hover  {
+    color: rgb(30, 30, 95);
+}
+
+.box1 {
+    background-image: url(./images/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main {
+    background-color: rgb(40, 40, 95);
+}
+.allimages {
+    /* margin: 80px 0px; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.images img {
+    border-radius: 50%;
+}
+footer h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center  ; */
+    width: 100%;
+    height: 10vh;
+}
+
+
